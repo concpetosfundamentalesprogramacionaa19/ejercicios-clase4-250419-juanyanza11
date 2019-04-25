@@ -31,7 +31,7 @@ public class SeleccionAnidada {
                     System.out.printf("Usted está aprobado (regular) con %d\n",calificacion);
                     System.out.printf("%s %d\n",reg,calificacion);
                 }else{
-                    System.out.printf("Usted está reprobado con %d\n");
+                    System.out.printf("Usted está reprobado con %d\n",calificacion);
                     System.out.printf("%s %d\n",rep,calificacion);
                 }
             }
