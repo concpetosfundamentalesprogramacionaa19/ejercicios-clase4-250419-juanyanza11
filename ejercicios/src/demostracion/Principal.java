@@ -13,12 +13,11 @@ public class Principal {
    
     public static void main (String[] args){
     
-        int tarifa;
         double valor;
         double add;
         double cadd;
         int nmen; 
-        valor = 0;
+        valor = 3;
         double piva;
         double ptotal;
         
@@ -28,6 +27,7 @@ public class Principal {
         nmen= entrada.nextInt();
        
         if (nmen==40){
+            valor = valor*0.12 +valor;
             System.out.printf("Su valor a pagar es: %.3f\n",valor);}else{
             if (nmen>40 && nmen<=200){
                 add =nmen-40;
