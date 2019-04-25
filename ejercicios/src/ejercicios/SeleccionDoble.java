@@ -1,17 +1,19 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package ejercicios;
-
 
 import java.util.Scanner;
 import paquetedos.*;
 /**
  *
- * @author juanyanza11
+ * @author juayanza11
  */
-public class SeleccionSimple {
+public class SeleccionDoble {
    
- 
-    
-    public static void main (String[] args){
+ public static void main (String[] args){
     // documentación
    
     Scanner entrada = new Scanner (System.in);
@@ -32,8 +34,10 @@ public class SeleccionSimple {
     
     int calificacion_2=45;
     
-    if (calificacion>=85){
+    if (calificacion_2>=85){
         System.out.printf("%s %d\n" ,mimensaje, calificacion_2);
+        }else{
+        System.out.printf("%s %d\n",mimensaje2,calificacion_2);
         }
     }
 }
