@@ -26,7 +26,7 @@ public class Principal {
        
         if (nmen==40){
             System.out.printf("Su valor a pagar es: %.3f",valor);}else{
-            if (nmen>40 && nmen==200){
+            if (nmen>40 || nmen<=200){
                 add =nmen-40;
                 cadd=add*0.05;
                 valor= 3+cadd;
