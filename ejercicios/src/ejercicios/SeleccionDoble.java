@@ -35,8 +35,10 @@ public class SeleccionDoble {
     int calificacion_2=45;
     
     if (calificacion_2>=85){
+        System.out.printf("Usted está aprobado con: %d",calificacion_2);
         System.out.printf("%s %d\n" ,mimensaje, calificacion_2);
         }else{
+        System.out.printf("Usted está reprobado con: %d",calificacion_2);
         System.out.printf("%s %d\n",mimensaje2,calificacion_2);
         }
     }
