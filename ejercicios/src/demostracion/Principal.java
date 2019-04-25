@@ -18,25 +18,34 @@ public class Principal {
         double add;
         double cadd;
         int nmen; 
-        valor = 3;
+        valor = 0;
+        double piva;
+        double ptotal;
+        
         Scanner entrada = new Scanner (System.in);
         
         System.out.println("Ingrese el número de mensajes enviados");
         nmen= entrada.nextInt();
        
         if (nmen==40){
-            System.out.printf("Su valor a pagar es: %.3f",valor);}else{
-            if (nmen>40 || nmen<=200){
+            System.out.printf("Su valor a pagar es: %.3f\n",valor);}else{
+            if (nmen>40 && nmen<=200){
                 add =nmen-40;
                 cadd=add*0.05;
-                valor= 3+cadd;
-                System.out.printf("Su valor a pagar es: %.3f",valor);
+                
+                piva= (3+cadd)*0.12;
+                ptotal=(3+cadd)+piva;
+                System.out.printf("Su valor a pagar es: %.3f\n",ptotal);
                 }else{
                 if (nmen>200){
-                add=nmen-40;
-                cadd=add*0.1;
-                valor=3+cadd;
-                System.out.printf("Su valor a pagar es: %.3f", valor);
+                
+                    add=nmen-200;
+                    cadd=add*0.10;
+                
+                piva= (3+cadd)*0.12;
+                ptotal=(3+cadd)+piva;
+                
+                System.out.printf("Su valor a pagar es: %.3f\n", ptotal);
                     }
                 }
             }
