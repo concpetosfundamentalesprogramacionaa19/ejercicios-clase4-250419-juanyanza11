@@ -35,10 +35,12 @@ public class Principal {
                 
                 piva= (3+cadd)*0.12;
                 ptotal=(3+cadd)+piva;
+                
+                // muestra de datos en pantalla
                 System.out.printf("Su valor a pagar es: %.3f\n",ptotal);
                 }else{
                 if (nmen>200){
-                
+                // calculos con iva
                     add=nmen-200;
                     cadd=add*0.10;
                 
