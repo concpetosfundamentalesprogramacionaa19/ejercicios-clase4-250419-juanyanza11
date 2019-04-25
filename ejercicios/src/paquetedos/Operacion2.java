@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package paquetedos;
-import ejercicios.*;
+
 /**
  *
  * @author ADMIN-HP

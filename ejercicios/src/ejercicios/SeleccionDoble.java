@@ -16,7 +16,7 @@ public class SeleccionDoble {
  public static void main (String[] args){
     // documentación
    
-    Scanner entrada = new Scanner (System.in);
+    S Scanner entrada = new Scanner (System.in);canner entrada = new Scanner (System.in);
     
     int calificacion=85;
     String mimensaje= Operacion.mensaje;
